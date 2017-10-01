@@ -626,6 +626,7 @@ A `this` expression.
 ```js
 interface ArrowFunctionExpression <: Function, Expression {
   type: "ArrowFunctionExpression";
+  id: null;
   body: BlockStatement | Expression;
   expression: boolean;
 }
